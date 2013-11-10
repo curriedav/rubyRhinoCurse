@@ -1,0 +1,146 @@
+html, body, #container {
+  height: 100%;
+}
+
+html {
+  background-color: #FFFFF0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #666666;
+  font-size: 120%;
+}
+
+#container {
+  height: auto;
+  min-height: 100%;
+  padding: 8%;
+}
+
+#content {
+  padding-bottom: 3em;
+}
+
+h2 {
+  width: 60%;
+  font-size: 375%;
+  float: left;
+}
+
+img {
+  width: 38%;
+  padding-left: 2%
+}
+
+table {
+  width: 95%;
+  border: 2px solid #666666;
+}
+
+th {
+  border-left: 2px solid #666666;
+  background-color: #83E7CB;
+}
+
+td {
+  border-left: 2px solid #666666;
+}
+
+.emphasis {
+  font-size: 1.5em;
+  color: #F01111;
+}
+
+form {
+  width: 100%;
+  background-color: #83E7CB;
+  padding: 1%;
+}
+
+.button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+}
+
+.button:hover {
+  background: white;
+}
+
+.row {
+  cursor: pointer;
+}
+
+input {
+  float: left;
+  padding: 0.5%;
+  margin: 2%;
+}
+
+input#name {
+  width: 94%;
+}
+
+input#email, input#twitter {
+  width: 48%;
+}
+
+input[type="submit"] {
+  float: right;
+  background-color: #83E7CB;
+  color: #666666;
+  border: 1px solid #83E7CB;
+  box-shadow:rgba(0,0,0,1) 2px 2px 6px;
+}
+
+p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: absolute;
+  bottom: 10%;
+  left: 0%;
+  text-align: left;
+}
+
+div {
+  float: left;
+}
+
+div .content {
+  width: 60%
+}
+
+div .header {
+  width: 60%;
+  font-style: italic;
+  font-size: 225%;
+}
+
+div .break {
+  width: 50%;
+  padding: 2% 0%;
+}
+
+div .break_100 {
+  width: 100%;
+  padding: 2% 0%;
+}
+
+div .form {
+  width: 98%;
+}
+
+#footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  width: 100%;
+  margin-top: -3em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
